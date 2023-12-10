@@ -1,0 +1,16 @@
+@import './base.css';
+#app {
+  max-width: 100dvw;
+  max-height: 100dvh;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50dvh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */
