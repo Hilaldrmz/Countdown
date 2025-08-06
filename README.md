@@ -1,4 +1,6 @@
 # Countdown
+![App Screenshot](/public/countdown.png)
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
