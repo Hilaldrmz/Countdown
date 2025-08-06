@@ -1,12 +1,64 @@
 @import './base.css';
+@font-face {
+  font-family: "Acorn Light";
+  src: local("Acorn Light"), local("Acorn-Light"), url("../assets/fonts/Acorn-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Acorn ExtraLight";
+  src: local("Acorn ExtraLight"), local("Acorn-ExtraLight"), url("../assets/fonts/Acorn-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Acorn Bold";
+  src: local("Acorn Bold"), local("Acorn-Bold"), url("../assets/fonts/Acorn-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Acorn Medium";
+  src: local("Acorn Medium"), local("Acorn-Medium"), url("../assets/fonts/Acorn-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Acorn Thin";
+  src: local("Acorn Thin"), local("Acorn-Thin"), url("../assets/fonts/Acorn-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Acorn Regular";
+  src: local("Acorn Regular"), local("Acorn-Regular"), url("../assets/fonts/Acorn-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Acorn SemiBold";
+  src: local("Acorn SemiBold"), local("Acorn-SemiBold"), url("../assets/fonts/Acorn-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 #app {
-  max-width: 100dvw;
-  max-height: 100dvh;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
   font-weight: normal;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50dvh;
+  background-color: brown;
+  color: aliceblue;
 }
 
 body {

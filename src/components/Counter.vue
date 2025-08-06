@@ -88,11 +88,23 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Acorn Regular';
+    gap:2vw;
+
+
+    #header >* {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10vw;
+        margin: 0 !important;
+    }
 
     #countdown {
         display: flex;
         flex-direction: row;
-        font-size: 4rem;
+        font-size: 9vw;
+        font-family: 'Acorn Regular';
         position: relative;
 
         div {
@@ -107,9 +119,8 @@ onMounted(() => {
         }
 
         .label {
-            font-size: x-small;
+            font-size: 1.5vw;
             position: absolute;
-            ;
         }
 
         .leading-snug {
